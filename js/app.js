@@ -3,6 +3,7 @@ var swLocation = "/twittor/sw.js";
 
 //Referencia al SW
 if ( navigator.serviceWorker) {
+    
     if(url.includes('localhost')) {
         swLocation = "/sw.js";
     }
